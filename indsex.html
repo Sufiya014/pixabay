@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixabay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body class="bg-gray text-white">
+    <div class="relative h-[70vh] w-full">
+        <img src="nature.png" alt="Background" class="absolute top-0 w-full h-full object-cover brightness-50">
+        <div class="relative flex flex-col items-center justify-center h-full px-4">
+            <nav class=" fixed top-0 w-full flex justify-between items-center p-4">
+                <div class="flex items-center space-x-2">
+                    <img src="img1.png" alt="Pixabay Logo" class="w-16 h-10">
+                </div>
+
+                <div class="hidden md:flex space-x-4">
+                    <button class="text-white opacity-80 hover:opacity-100 "><i
+                            class="fa-solid fa-chevron-down mr-2"></i>Explore</button>
+                    <button class="text-white opacity-80 hover:opacity-100 ">Log in</button>
+                    <button class="text-white opacity-80 hover:opacity-100 ">Join</button>
+                    <button
+                        class="fa-solid fa-arrow-up-from-bracket rounded-full bg-green-600 px-4 py-2 opacity-80 hover:opacity-100 ">
+                        Upload</button>
+                </div>
+
+
+                <button id="menu-btn"
+                    class="md:hidden text-white text-2xl focus:outline-none opacity-80 hover:opacity-100 hover:text-gray-500">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+
+
+            <div id="mobile-menu" class="hidden absolute top-10 right-4 bg-gray-800 p-2 rounded-lg md:hidden">
+                <button class="block text-white opacity-80 hover:opacity-100 mb-2 "><i
+                        class="fa-solid fa-chevron-down mr-2"></i>Explore</button>
+                <button class="block text-white opacity-80 hover:opacity-100 mb-2 ">Log in</button>
+                <button class="block text-white opacity-80 hover:opacity-100 mb-2 ">Join</button>
+                <button
+                    class="block fa-solid bg-green-600 px-3 py-2 rounded-full opacity-80 hover:opacity-100 ">
+                    Upload</button>
+            </div>
+
+            <h1 class="text-3xl sm:text-4xl font-bold text-center mt-16 hidden md:flex ">Stunning royalty free images &
+                royalty free stock</h1>
+
+
+            <div class="mt-8 flex flex-wrap justify-center space-x-2">
+                <a href="index.html"
+                    class="px-3 py-2 bg-white rounded-full text-black text-sm sm:text-base  opacity-80 hover:opacity-100 ">Explore</a>
+                <a href="photos1.html"
+                    class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">Photos</a>
+                <a href="illustration.html"
+                    class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100">Illustrations</a>
+                <a href="vectors.html "
+                    class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">Vectors</a>
+                <a href="video.html"
+                    class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">Videos</a>
+                <a href="music.html"
+                    class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">Music</a>
+                <a href="soundeffects.html" class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">Sound Effects</a>
+                <a href="gifs.html" class="px-3 py-2 text-white text-sm sm:text-base opacity-80 hover:opacity-100 ">GIFs</a>
+            </div>
+
+            <div class="mt-6 w-full max-w-sm">
+                <i class=" w-full p-3 rounded-lg text-black fa-solid fa-magnifying-glass bg-white "></i>
+            </div>
+
+
+
+            <div class="mt-4 flex flex-wrap justify-center space-x-2">
+                <span
+                    class="px-3 py-2 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">nature</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">Wallpaper</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">valentines</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">Lunar
+                    New Year</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">background</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">Flowers</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">New
+                    Year 2025</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">Landscape</span>
+                <span
+                    class="px-3 py-1 bg-gray-500  rounded-lg text-sm opacity-80 hover:opacity-100 hover:bg-gray-600">Cat</span>
+
+            </div>
+            <br>
+            <div class="mt-0 px-0">
+                <h2 class="text-left text-white flex items-start text-sm opacity-80">
+                    Free image by mehtaa
+                </h2>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="bg-white py-4 text-left text-black font-bold">
+        <h1 class="text-3xl font-bold mt-2 sm:hidden ">Stunning royalty-free images & royalty-free stock</h1>
+        <p class="text-left text-gray-700 mt-2">Over 5.3 million+high quality stock images videos and music shared by
+            our talented community</p>
+    </footer>
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
